@@ -1,4 +1,4 @@
-# UnblockMedium
+# Unblock Medium.com
 Simple Google Chrome extension that removes the Medium.com paywall when reading member-only stories.
 
 This application uses the Chrome API to find a Medium.com UID cookie and deletes it when the extension is executed. This will unblock the paywall if you 
