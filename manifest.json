@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Unblock Medium.com Member-Only Stories",
+  "description": "Removes Medium.com member stories paywall.",
+  "version": "1.0",
+  "permissions": ["cookies"],
+  "host_permissions": ["*://*.medium.com/*", "*://medium.com/*"],
+  "action": {
+    "default_popup": "unblockMedium.html",
+    "default_icon": "medium.png"
+  }
+}
